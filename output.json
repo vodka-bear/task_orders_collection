@@ -1,0 +1,60 @@
+{
+    "paid_count": 3,
+    "paid_total": 4500,
+    "most_expensive_paid": {
+        "id": 103,
+        "customer": "Пётр",
+        "status": "paid",
+        "amount": 3000
+    },
+    "filtered_by_min_amount": [
+        {
+            "id": 102,
+            "customer": "Мария",
+            "status": "pending",
+            "amount": 2500
+        },
+        {
+            "id": 103,
+            "customer": "Пётр",
+            "status": "paid",
+            "amount": 3000
+        }
+    ],
+    "grouped_by_status": {
+        "paid": {
+            "orders": [
+                {
+                    "id": 101,
+                    "customer": "Иван",
+                    "status": "paid",
+                    "amount": 1500
+                },
+                {
+                    "id": 103,
+                    "customer": "Пётр",
+                    "status": "paid",
+                    "amount": 3000
+                },
+                {
+                    "id": 104,
+                    "customer": "Анна",
+                    "status": "paid",
+                    "amount": 0
+                }
+            ],
+            "count": 3
+        },
+        "pending": {
+            "orders": [
+                {
+                    "id": 102,
+                    "customer": "Мария",
+                    "status": "pending",
+                    "amount": 2500
+                }
+            ],
+            "count": 1
+        }
+    }
+}
